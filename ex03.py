@@ -21,11 +21,11 @@ def text_analyser(string=None):
             punctuation += 1
         elif i.isspace():
             spaces += 1
-    print("The text contains", len(string))
-    print("The amount of upper characters is", upper_case)
-    print("The amount of lower characters is", lower_case)
-    print("The amount of punctuation characters is", punctuation)
-    print("The amount of spaces is", spaces)
+    print("The text contains " + str(len(string)))
+    print("The amount of upper characters is " +  str(upper_case))
+    print("The amount of lower characters is " +  str(lower_case))
+    print("The amount of punctuation characters is " +  str(punctuation))
+    print("The amount of spaces is " +  str(spaces))
 
 if __name__ == "__main__":
     if len(sys.argv) > 2:
